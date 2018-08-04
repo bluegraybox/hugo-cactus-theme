@@ -109,7 +109,7 @@ h2 {
 nav.main-nav {
 	padding: 20px 20px 0;
 
-	/*max-width: 600px;*/
+	max-width: 600px;
 	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
@@ -124,8 +124,8 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #5badf0;
-	font-size: 13px;
-	/*font-weight: bold;*/
+	font-size: 13pt;
+	/* font-weight: bold; */
 	line-height: 1.35;
 	border-radius: 3px;
 
