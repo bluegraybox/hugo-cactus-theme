@@ -70,13 +70,13 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
+	padding: 20px;
 	max-width: 600px;
 	margin: 0 auto;
 }
 
 .profile #header {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	position: relative;
 }
@@ -139,7 +139,7 @@ nav.main-nav a.cta {
 #wrapper {
   max-width: 600px;
   margin: 0 auto;
-  padding: 60px 40px 100px 40px;
+  padding: 20px;
 }
 
 #wrapper.home {
