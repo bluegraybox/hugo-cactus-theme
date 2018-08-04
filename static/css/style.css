@@ -240,7 +240,7 @@ em, i { font-style: italic; }
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
+	margin: -5px 0 20px 0;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
@@ -436,7 +436,7 @@ Post List
 
 /* Post Page */
 .post {
-	margin: 80px 0 0 0;
+	margin: 20px 0 0 0;
 }
 
 #post-meta {
@@ -444,10 +444,10 @@ Post List
 	font-weight: bold;
 	line-height: 1.4;
 	border-top: 1px solid #eee;
-	padding-top: 40px;
-	margin-bottom: 40px;
-	padding-bottom: 40px;
-	margin-top: 40px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
 	color:#444;
 	border-bottom: 1px solid #eee;
 }
