@@ -2,10 +2,13 @@
 	{{ if not .IsHome }}
 		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ .Site.Params.home | default "Home" }}</a>
 	{{ end }}
+	{{ $current := . }}
 
 	{{ range .Site.Menus.main }}
- 		<a href='{{ .URL }}'>{{ .Name }}</a>
-  	{{ end }}
+		{{ if ne $current.URL .URL }}
+			<a href='{{ .URL }}'>{{ .Name }}</a>
+		{{ end }}
+	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
 		<a class="cta" href="{{ .Site.RSSLink }}">{{ .Site.Params.subscribe | default "Subscribe" }}</a>
